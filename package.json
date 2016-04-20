@@ -2,7 +2,6 @@
   "name": "mysuperawesome-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/ninjaofawesome/mysuperawesome-cli/issues"
   },
-  "homepage": "https://github.com/ninjaofawesome/mysuperawesome-cli"
+  "homepage": "https://github.com/ninjaofawesome/mysuperawesome-cli",
+  "preferGlobal": true,
+  "bin": {
+    "superawesome": "index.js"
+  }
 }
